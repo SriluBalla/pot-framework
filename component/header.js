@@ -8,7 +8,7 @@ class PotHeader extends HTMLElement {
             <a href="/" class="logo">
               <img src="images/Logo.png" alt="Product Owner in Test Logo" />
             </a>
-            <a href="index.html" id="navbar__logo">Product Owner in Test™</a>  
+            <a href="/" id="navbar__logo">Product Owner in Test™</a>  
             <div class="navbar__toggle" id="mobile-menu">
               <span class="bar"></span>
               <span class="bar"></span>
