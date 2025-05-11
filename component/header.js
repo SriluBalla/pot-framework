@@ -2,7 +2,7 @@ class PotHeader extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <header>
-       <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="${document.baseURI}css/header.css" />
           <nav class="navbar">
             <div class="navbar__container">
                 <a href="index.html" class="logo">
