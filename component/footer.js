@@ -2,7 +2,7 @@ class PotFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="footer">
-        <link rel="stylesheet" href="/css/footer.css"/>
+        <link rel="stylesheet" href="../css/footer.css"/>
         <div class="footer__container">
           <div class="footer__logo">
             <a href="/">Product Owner in Test™</a>
@@ -10,13 +10,13 @@ class PotFooter extends HTMLElement {
 
           <ul class="footer__menu">
             <li class="footer__item">
-            <a href="/pages/about.html" class="footer_link">About</a>
+            <a href="pages/about.html" class="footer_link">About</a>
             </li>
             <li class="footer__item">
-            <a href="/pages/contact.html" class="footer_link">Contact</a>
+            <a href="pages/contact.html" class="footer_link">Contact</a>
             </li>
             <li class="footer__item">
-            <a href="/pages/privacy.html" class="footer_link">Privacy</a>
+            <a href="pages/privacy.html" class="footer_link">Privacy</a>
             </li>
             </ul>
           </div>

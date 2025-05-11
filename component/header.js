@@ -2,11 +2,11 @@ class PotHeader extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <header>
-        <link rel="stylesheet" href="../css/header.css" />
+       <link rel="stylesheet" href="../css/header.css" />
           <nav class="navbar">
             <div class="navbar__container">
-                <a href="../index.html" class="logo">
-                <img src="../images/Logo.png" alt="Product Owner in Test Logo" />
+                <a href="index.html" class="logo">
+                <img src="images/Logo.png" alt="Product Owner in Test Logo" />
                 <a href="/" id="navbar__logo">Product Owner in Test™</a>  
               <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -16,16 +16,16 @@ class PotHeader extends HTMLElement {
 
               <ul class="navbar__menu">
                 <li class="navbar__item">
-                <a href="../pages/exp.html" class="navbar__links">Experiment</a>
+                <a href="pages/exp.html" class="navbar__links">Experiment</a>
                 </li>
                 <li class="navbar__item">
-                <a href="../pages/why.html" class="navbar__links">Why</a>
+                <a href="pages/why.html" class="navbar__links">Why</a>
                 </li>
                 <li class="navbar__item">
-                <a href="../pages/qa-vs-pot.html" class="navbar__links">QA vs POT</a>
+                <a href="pages/qa-vs-pot.html" class="navbar__links">QA vs POT</a>
                 </li>
                 <li class="navbar__btn">
-                <a href="../pages/login.html" class="button">Sign In</a>
+                <a href="pages/login.html" class="button">Sign In</a>
                 </li>
                 <li class="navbar__btn">
                 <a href="/" class="button">Sign Up</a>

@@ -1,7 +1,7 @@
 class HomeHero extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="../css/main.css" />        
         <section class="hero">
             <div class="hero-content">
                 <h2>Welcome to the World of Product Owner in Test™</h2>
