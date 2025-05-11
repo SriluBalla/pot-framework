@@ -5,7 +5,7 @@ class PotHeader extends HTMLElement {
         <link rel="stylesheet" href="css/header.css" />
         <nav class="navbar">
           <div class="navbar__container">
-            <a href="/index.html" class="logo">
+            <a href="/" class="logo">
               <img src="images/Logo.png" alt="Product Owner in Test Logo" />
             </a>
             <a href="index.html" id="navbar__logo">Product Owner in Test™</a>  
@@ -16,19 +16,19 @@ class PotHeader extends HTMLElement {
             </div>
             <ul class="navbar__menu">
               <li class="navbar__item">
-                <a href="/exp.html" class="navbar__links">Experiment</a>
+                <a href="exp.html" class="navbar__links">Experiment</a>
               </li>
               <li class="navbar__item">
-                <a href="/why.html" class="navbar__links">Why</a>
+                <a href="why.html" class="navbar__links">Why</a>
               </li>
               <li class="navbar__item">
-                <a href="/qa-vs-pot.html" class="navbar__links">QA vs POT</a>
+                <a href="qa-vs-pot.html" class="navbar__links">QA vs POT</a>
               </li>
               <li class="navbar__btn">
-                <a href="/login.html" class="button">Sign In</a>
+                <a href="login.html" class="button">Sign In</a>
               </li>
               <li class="navbar__btn">
-                <a href="/signup.html" class="button">Sign Up</a>
+                <a href="signup.html" class="button">Sign Up</a>
               </li>
             </ul>
           </div>
