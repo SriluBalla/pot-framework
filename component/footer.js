@@ -2,21 +2,21 @@ class PotFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="footer">
-        <link rel="stylesheet" href="${document.baseURI}css/footer.css" />
+        <link rel="stylesheet" href="css/footer.css" />
         <div class="footer__container">
           <div class="footer__logo">
-            <a href="${document.baseURI}/">Product Owner in Test™</a>
+            <a href="/">Product Owner in Test™</a>
           </div>
 
           <ul class="footer__menu">
             <li class="footer__item">
-            <a href="${document.baseURI}pages/about.html" class="footer_link">About</a>
+            <a href="about.html" class="footer_link">About</a>
             </li>
             <li class="footer__item">
-            <a href="${document.baseURI}pages/contact.html" class="footer_link">Contact</a>
+            <a href="contact.html" class="footer_link">Contact</a>
             </li>
             <li class="footer__item">
-            <a href="${document.baseURI}pages/privacy.html" class="footer_link">Privacy</a>
+            <a href="privacy.html" class="footer_link">Privacy</a>
             </li>
             </ul>
           </div>
