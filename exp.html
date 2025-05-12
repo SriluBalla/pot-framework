@@ -3,18 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="images/global/favicon.png" type="image/png">
 
   <title>Product Owner in Test</title>  
   <script type="module" src="component/header.js"></script>
   <script type="module" src="component/footer.js"></script>
   <link rel="stylesheet" href="css/main.css" />
-  <pot-head></pot-head>
+
+  <!-- SEO -->
+  <script src="scripts/seo.js"></script>
+  <script>
+    insertSEO({
+      title: "QA vs POT – Product Owner in Test™",
+      description: "Explore how the Product Owner in Test™ compares with traditional QA roles.",
+      image: "https://sriluballa.github.io/pot-framework/images/qa-vs-pot-og.jpg"
+    });
+  </script>
+
 </head>
 
 <body>  
+  <pot-head></pot-head>
     <h1>PAGE for Experimenting </h1>
     
-
+    <pot-foot></pot-foot>
 </body>
-<pot-foot></pot-foot>
+
 </html>

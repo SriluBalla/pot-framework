@@ -13,7 +13,7 @@ class HomeHero extends HTMLElement {
             </div>
     
             <div class="hero-image">
-                <img src="images/happypots.gif" alt="Curious Testers">
+                <img src="images/home/happypots.gif" alt="Curious Testers">
             </div>
 </section>
       `

@@ -6,7 +6,7 @@ class PotHeader extends HTMLElement {
         <nav class="navbar">
           <div class="navbar__container">
             <a href="/" class="logo">
-              <img src="images/Logo.png" alt="Product Owner in Test Logo" />
+              <img src="images/global/Logo.png" alt="Product Owner in Test Logo" />
             </a>
             <a href="/" id="navbar__logo">Product Owner in Test™</a>  
             <div class="navbar__toggle" id="mobile-menu">
