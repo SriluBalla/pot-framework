@@ -5,7 +5,7 @@ class PotFooter extends HTMLElement {
         <link rel="stylesheet" href="css/footer.css" />
         <div class="footer__container">
           <div class="footer__logo">
-            <a href="/">Product Owner in Test™</a>
+            <a href="index.html">Product Owner in Test™</a>
           </div>
 
           <ul class="footer__menu">

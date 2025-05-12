@@ -5,10 +5,10 @@ class PotHeader extends HTMLElement {
         <link rel="stylesheet" href="css/header.css" />
         <nav class="navbar">
           <div class="navbar__container">
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
               <img src="images/global/Logo.png" alt="Product Owner in Test Logo" />
             </a>
-            <a href="/" id="navbar__logo">Product Owner in Test™</a>  
+            <a href="index.html" id="navbar__logo">Product Owner in Test™</a>  
             <div class="navbar__toggle" id="mobile-menu">
               <span class="bar"></span>
               <span class="bar"></span>
